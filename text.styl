@@ -1,0 +1,40 @@
+padding = 10px
+
+img
+  width 100%
+  height 100%
+
+.textB
+  padding padding/2
+  margin padding/2
+  .imageB
+    padding padding
+    float right
+    width 40%
+    overflow hidden
+  p
+    line-height 2
+    margin 1vw
+    text-align justify
+    text-indent 2vw
+    word-spacing 0.5em
+    justify-content:space-evenly
+//border solid black 1px
+.textFlex
+  .textB
+    padding padding/2
+    margin padding/2
+    width 50%
+@media(max-width:600px)
+  .textB
+    padding padding/2
+    margin @padding
+    .imageB
+      margin padding
+      float none
+      width 50%
+      p
+        line-height 2
+        margin padding
+        text-align justify
+        word-spacing 1px
